@@ -1,3 +1,21 @@
-.nav-link{
-  color: #ffffff;
+/* Variables */
+:root{
+  --primary-color: #28A745;
+  --secondary-color: #212529;
+  --tertiary-color: #707070;
+  --fourthary-color: #DDDDDD;
+
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+#header img{
+  width: 8.6rem;
+}
+.navbar-bg{
+  background-color: var(--primary-color);
 }
